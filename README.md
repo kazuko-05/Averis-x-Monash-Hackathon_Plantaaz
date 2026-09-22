@@ -5,12 +5,12 @@
 [![Accuracy](https://img.shields.io/badge/Classification_Macro--F1-1.000-brightgreen?style=for-the-badge)](src/classifier.py)
 [![Defect F1](https://img.shields.io/badge/Defect_Detection_F1-1.000-brightgreen?style=for-the-badge)](src/comparator.py)
 [![Reliability](https://img.shields.io/badge/Escalation_Recall-1.000-brightgreen?style=for-the-badge)](src/reliability.py)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Accessible_Online-blueviolet?style=for-the-badge)](https://weekends-associate-participation-suspension.trycloudflare.com)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Accessible_Online-blueviolet?style=for-the-badge)](https://averis-x-monash-hackathon-plantaaz.onrender.com/)
 
 > 🌐 **Public Live Prototype / Demo Link (For Judges)**:  
-> **[https://weekends-associate-participation-suspension.trycloudflare.com](https://weekends-associate-participation-suspension.trycloudflare.com)**
+> **[https://averis-x-monash-hackathon-plantaaz.onrender.com/](https://averis-x-monash-hackathon-plantaaz.onrender.com/)**
 > 
-> *Directly accessible online — no installation or login required. Features full email inbox triage, multi-format attachment parsing, side-by-side discrepancy comparator, and human review resolution.*
+> *Directly accessible online 24/7 — no installation or login required. Features full email inbox triage, multi-format attachment parsing, side-by-side discrepancy comparator, and human review resolution.*
 
 ---
 
