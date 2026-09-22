@@ -5,8 +5,12 @@
 [![Accuracy](https://img.shields.io/badge/Classification_Macro--F1-1.000-brightgreen?style=for-the-badge)](src/classifier.py)
 [![Defect F1](https://img.shields.io/badge/Defect_Detection_F1-1.000-brightgreen?style=for-the-badge)](src/comparator.py)
 [![Reliability](https://img.shields.io/badge/Escalation_Recall-1.000-brightgreen?style=for-the-badge)](src/reliability.py)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Accessible_Online-blueviolet?style=for-the-badge)](https://weekends-associate-participation-suspension.trycloudflare.com)
 
-An autonomous shipping document verification and operational discrepancy reporting platform. Automatically ingests operational inboxes, classifies email intents, extracts shipment fields across multiple file formats (TXT, PDF, Word DOCX, Excel XLSX), performs side-by-side discrepancy comparisons between Shipping Instructions (SI) and draft Bills of Lading (BL), and safely escalates ambiguous or damaged documents to human operations teams.
+> 🌐 **Public Live Prototype / Demo Link (For Judges)**:
+> **[https://weekends-associate-participation-suspension.trycloudflare.com](https://weekends-associate-participation-suspension.trycloudflare.com)**
+> 
+> *Directly accessible online — no installation or login required. Features full email inbox triage, multi-format attachment parsing, side-by-side discrepancy comparator, and human review resolution.*
 
 ---
 
