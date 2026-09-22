@@ -127,52 +127,6 @@ DASHBOARD_HTML = """
             text-transform: uppercase;
         }
 
-        /* Demo Presets Bar */
-        .demo-bar {
-            background: linear-gradient(90deg, #1c2128, #161b22);
-            border: 1px solid var(--accent);
-            border-radius: 8px;
-            padding: 12px 18px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .demo-title {
-            font-size: 13px;
-            font-weight: 600;
-            color: var(--text-bright);
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-        .demo-buttons {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-        .btn-demo {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            color: var(--text-bright);
-            padding: 5px 12px;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        .btn-demo:hover {
-            border-color: var(--accent);
-            color: var(--accent);
-            background: var(--accent-soft);
-        }
-
         .kpi-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -499,21 +453,6 @@ DASHBOARD_HTML = """
             <button onclick="openScoreboardModal()" class="btn-filter active" style="background: var(--success-soft); color: #3fb950; border-color: rgba(63, 185, 80, 0.4);">🏆 View Scoreboard</button>
             <a href="/discrepancy_report.md" target="_blank" class="btn-filter" style="text-decoration: none; color: var(--text-bright);">📄 View Discrepancy Report</a>
             <a href="/submission.json" download class="btn-filter" style="text-decoration: none; color: var(--text-bright);">📥 Download Submission</a>
-        </div>
-    </div>
-
-    <!-- Demo Presets Bar -->
-    <div class="demo-bar">
-        <div class="demo-title">
-            <span>⚡ Interactive Demo Presets:</span>
-        </div>
-        <div class="demo-buttons">
-            <button class="btn-demo" onclick="openModal('email_004')">🔴 Discrepancy (Email 004)</button>
-            <button class="btn-demo" onclick="openModal('email_055')">🟡 Multi-Format DOCX/XLSX (Email 055)</button>
-            <button class="btn-demo" onclick="openModal('email_001')">🟢 Clean Match (Email 001)</button>
-            <button class="btn-demo" onclick="openModal('email_501')">⚠️ Wrong Doc Type (Email 501)</button>
-            <button class="btn-demo" onclick="openModal('email_512')">⚠️ Unreadable Scan (Email 512)</button>
-            <button class="btn-demo" onclick="openModal('email_516')">⚠️ Missing Value (Email 516)</button>
         </div>
     </div>
 
