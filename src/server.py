@@ -1081,9 +1081,10 @@ def main():
     parser.add_argument("--host", default="0.0.0.0", help="Host interface (default: 0.0.0.0)")
     args = parser.parse_args()
 
+    port = int(os.environ.get("PORT", args.port))
     load_verification_cache()
-    print(f"SDOC Verification Server running on http://{args.host}:{args.port}")
-    app.run(host=args.host, port=args.port, debug=False)
+    print(f"SDOC Verification Server running on http://{args.host}:{port}")
+    app.run(host=args.host, port=port, debug=False)
 
 
 if __name__ == "__main__":
