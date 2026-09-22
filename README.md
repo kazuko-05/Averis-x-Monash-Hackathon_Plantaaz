@@ -12,9 +12,9 @@
 
 ## 🎯 How to Use the System (Judge's Guide)
 
-### Using the Live Web Console (Online or Local)
+### Using the Live Web Console
 
-1. **Access the Console**: Open the live link above (or `http://localhost:8080` locally).
+1. **Access the Console**: Open the live link above: **[https://averis-x-monash-hackathon-plantaaz.onrender.com/](https://averis-x-monash-hackathon-plantaaz.onrender.com/)**.
 2. **Review Inbox & KPIs**:
    - The top KPI cards show real-time metrics across all 520 emails, total Bills of Lading verified, discrepancies detected, and escalations flagged.
 3. **Filter & Search Emails**:
@@ -125,38 +125,3 @@ END-TO-END · the headline metric
 ├── data_v2/                  # Dataset (inbox, attachments, schemas)
 └── server/                   # Benchmark grading tools and reference server
 ```
-
----
-
-## 🚀 Quick Start (Running Locally)
-
-### 1. Prerequisites & Installation
-
-Clone the repository and install dependencies:
-```bash
-git clone https://github.com/kazuko-05/Averis-x-Monash-Hackathon_Plantaaz.git
-cd Averis-x-Monash-Hackathon_Plantaaz
-pip install -r requirements.txt
-```
-
-### 2. Run the Verification Pipeline
-
-To process all inbox records, output predictions to `submission.json`, and compile the operational discrepancy report:
-```bash
-python run_pipeline.py
-```
-
-### 3. Run Automated Tests
-
-To execute the full test suite (classification, reliability, multi-format extraction, end-to-end):
-```bash
-python -m unittest discover -s tests -p "test_*.py" -v
-```
-
-### 4. Launch the Operations Web Console
-
-To launch the web dashboard locally:
-```bash
-python -m src.server --port 8080
-```
-Open [http://localhost:8080](http://localhost:8080) in your web browser.
