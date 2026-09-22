@@ -9,10 +9,6 @@
 
 > 🌐 **Public Live Prototype / Demo Link (For Judges)**:  
 > **[https://averis-x-monash-hackathon-plantaaz.onrender.com/](https://averis-x-monash-hackathon-plantaaz.onrender.com/)**
-> 
-> *Directly accessible online 24/7 — no installation or login required. Features full email inbox triage, multi-format attachment parsing, side-by-side discrepancy comparator, and human review resolution.*
-
----
 
 ## 🎯 How to Use the System (Judge's Guide)
 
